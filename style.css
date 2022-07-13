@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+    color: #828282;
+}
+.head-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.text-btn{
+width: 50%;
+margin-left: 5%;
+}
+.image-side{
+width: 50%;
+}
+.image-side > img{
+    width: 96%;
+}
+.orage-color{
+    color: #FBA24F ;
+}
+.main-btn{
+   width: 192px;
+   height: 68px;
+   border-radius: 100px;
+   font-size: 16px;
+   border: none;
+   color: white;
+   background-image: linear-gradient(90deg,#FBA24F,#FF1E1E);
+   cursor: pointer;
+}
+.main-btn:hover{
+    background-image: linear-gradient(#FBA24F,#FF1E1E);
+}
+
+/* About Section  */
+
+.about-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff4ed;
+    background-image: url(./images/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.femail-img{
+    width: 48%;
+     margin-left: 10%;
+     align-items: baseline;
+}
+.femail-img > img{
+width: 40%;
+}
+.text-area{
+    width: 50%;
+    margin-right: 5%;
+}
+
+/* Recipies Section  */
+.top-header{
+    margin: 0px 300px 0px 300px;
+    text-align: center;
+}
+.two-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.left-box{
+    width: 40%;
+    box-shadow: 10px 10px 30px darkgrey;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+.mid-content{
+    width: 100%;
+}
+.mid-content > img{
+    width: 100%;
+}
+
+/* Social Section  */
+
+.social-section{
+    text-align: center;
+    height: 200px;
+    margin: 5% 5%;
+    box-shadow: 10px 10px 30px lightgray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    text-align: center;
+   padding: 10px;
+   color: lightgrey;
+}
